@@ -1,5 +1,5 @@
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 div#footer{
     background-color: black;
@@ -114,4 +114,13 @@ div#footer #footer-section-2 .copyright{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 12px;
+}
+@media screen and (max-width: 650px) {
+    div#footer #footer-section-1 {
+        flex-direction: column;
+        height: auto;
+    }
+    div#footer {
+        height: auto;
+    }
 }

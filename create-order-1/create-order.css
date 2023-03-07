@@ -386,3 +386,17 @@ div#content
     text-transform: uppercase;
     color: #3F3F3F;
 }
+
+
+@media screen and (max-width: 650px) { 
+
+div#content #content-form #order-summary {
+    width: unset;
+    box-sizing: border-box;
+    background: #F0F2F2;
+    border: 2px solid #C4C4C4;
+    padding: 15px;
+    left: 50px;
+    position: relative;
+}
+}

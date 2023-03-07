@@ -265,3 +265,22 @@ div#content
     justify-content: center;
     align-items: center;
 }
+
+
+
+@media screen and (max-width: 414px) {
+    div#content #content-form .sections #options {
+        margin-left: 10px;
+    }
+    div#content #content-form .sections #options {
+        width: 29vw;
+}
+
+div#content #content-form .sections #information {
+    width: unset;
+}
+div#content #content-form .sections { 
+    width: 80vw;
+}
+
+}

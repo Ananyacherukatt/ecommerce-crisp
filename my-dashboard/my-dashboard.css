@@ -185,3 +185,18 @@ div#content
     font-weight: 600;
     margin-right: 5px;
 }
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+div#content #content-form .sections #information .info-section {
+    margin-bottom: 58px;
+}
+
+div#content #content-form .sections #information .info-main-content .info-sub-section {
+    width: 7vw;
+}
+}

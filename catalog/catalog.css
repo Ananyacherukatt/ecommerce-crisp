@@ -370,3 +370,25 @@ div#content
   background-position: center right;
   color: white;
 }
+
+
+
+@media screen and (max-width: 650px) {
+  .ad-data  {
+    flex-direction: column !important;
+    /* justify-content: space-between !important; */
+  }
+  div#content .ad-x .ad-container .ad-data {
+    width: 90%;
+}
+div#content .ad-x .ad-head {
+  font-size: 30px;
+}
+div#content #collection #side-bar .side-bar-box .sizes-row .size {
+  margin-right: 4px;
+}
+div#content #collection #side-bar .side-bar-box .sizes-row {
+  margin-left: 6px;
+}
+
+}

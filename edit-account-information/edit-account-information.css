@@ -268,3 +268,19 @@ div#content
     justify-content: center;
     align-items: center;
 }
+
+
+
+@media screen and (max-width: 650px) {
+div#content #content-form .sections #options {
+    width: 24vw;
+}
+
+div#content #content-head {
+    font-size: 2rem;
+}
+
+div#content #content-form .sections #information { 
+    width: unset;
+}
+}

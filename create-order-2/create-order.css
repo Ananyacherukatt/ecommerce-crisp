@@ -469,3 +469,28 @@ div#content
 .address{
     margin-left: 0;
 }
+
+
+
+@media screen and (max-width: 650px) { 
+
+div#content #content-form #order-summary {
+    width: 39vw;
+    box-sizing: border-box;
+    background: #F0F2F2;
+    border: 2px solid #C4C4C4;
+    padding: 15px;
+    position: relative;
+    left: 65px;
+}
+
+div#content #content-form #order-summary #paymeny-method {
+    position: unset; 
+   
+    flex-direction: column;
+    justify-content: space-around; 
+}
+div#content #content-form #discount-code #discount-code-button {
+    display: none;
+}
+}

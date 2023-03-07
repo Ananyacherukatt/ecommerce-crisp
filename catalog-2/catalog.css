@@ -480,4 +480,18 @@ div#content
     color: black;
     text-decoration: none;
   }
-  
+
+
+
+
+  @media screen and (max-width: 650px) { 
+
+div#content #collection #side-bar #box .box-item .box-item-data .badge {
+    font-size: 12px;
+  }
+  div#content #collection #side-bar .side-bar-box .sizes-row {
+    margin-left: 6px;}
+    div#content #collection #side-bar .side-bar-box .sizes-row .size {
+        margin-right: 4px;
+    }
+}
