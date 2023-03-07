@@ -636,7 +636,9 @@ div#content
 div#content #content-form #sections #product-table .table-data {
     display: flex;
     margin-top: 10px;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 div#content #content-form #sections #product-table .table-head {
     gap: 26px;
@@ -661,5 +663,12 @@ width: unset;
 }
 div#content #content-form #sections #product-table .product-name {
     flex-direction: column;
+}
+
+div#content #content-form #sections #product-table .table-head {
+    justify-content: space-between;
+}
+div#content #content-form #sections #product-table {
+width: 100%;
 }
 }

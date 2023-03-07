@@ -481,7 +481,20 @@ div#content
     text-decoration: none;
   }
 
+  #content .ad-x .ad-container button {
+    border: 1px black solid;
+    
+    position: absolute;
+    left: 17%;
+    top: 64%;
+    padding: 5px;
+    background-color: #ffffff00;
+}
+div#content .ad-x {
+    position: relative;
+}
 
+  
 
 
   @media screen and (max-width: 650px) { 
