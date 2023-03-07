@@ -626,3 +626,40 @@ div#content
     color: white;
     background-color: #000000;
 }
+
+
+@media screen and (max-width: 650px) {
+    div#content {
+        height:unset;
+    } 
+    
+div#content #content-form #sections #product-table .table-data {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+div#content #content-form #sections #product-table .table-head {
+    gap: 26px;
+}
+
+div#content #content-form #sections #bill {
+    width: unset;
+}
+div#content #content-form #sections {
+    margin-top: 49px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+div#content #content-form {
+    height:unset;
+}
+div#content #content-form #sections #product-table .table-buttons .grey-button {
+width: unset;
+}
+div#content #content-form #sections #product-table .product-name {
+    flex-direction: column;
+}
+}

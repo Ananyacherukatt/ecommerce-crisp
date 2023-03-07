@@ -252,3 +252,25 @@ div#content
     text-transform: uppercase;
     cursor: pointer;
 }
+
+
+
+@media screen and (max-width: 650px) {
+    div#content #content-form .sections #wishlists .wishlist-row {
+        display: flex;
+        flex-direction: column;
+ }
+ div#content {
+    height: auto;
+}
+div#content #content-form {
+    height: auto;
+}
+div#content #content-form .sections #wishlists .table-buttons .grey-button {
+    width: unset;
+    height: unset;
+}
+div#content #content-form .sections {
+    gap: 13px;
+}
+}

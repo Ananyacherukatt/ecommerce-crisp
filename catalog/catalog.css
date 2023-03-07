@@ -390,5 +390,8 @@ div#content #collection #side-bar .side-bar-box .sizes-row .size {
 div#content #collection #side-bar .side-bar-box .sizes-row {
   margin-left: 6px;
 }
+div#content #collection #side-bar {
+  width: unset;
+}
 
 }
