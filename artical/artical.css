@@ -208,14 +208,16 @@ div#content .ad-x .ad-container {
 }
 
 div#content .ad-x .ad-container p {
-  position: absolute;
-  border: 1px solid white;
-  padding: 10px;
-  background-color: white;
-  right: 90px;
-
-  top: 563px;
-}
+    position: absolute;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    right: 50px;
+    top: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 89%;}
 
 
 
