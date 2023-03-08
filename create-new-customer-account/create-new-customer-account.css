@@ -218,4 +218,13 @@ div#content
 
 
 }
+div#content #content-form #sections .button-section #black-button {
+    width: 15vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 }

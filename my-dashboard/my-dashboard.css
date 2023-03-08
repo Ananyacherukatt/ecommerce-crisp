@@ -9,7 +9,7 @@ div#content{
     justify-content: space-evenly;
 }
 div#content > div{
-    width:75vw;
+    width:95vw;
 }
 div#content #content-path{
     height:21px;
@@ -198,5 +198,14 @@ div#content #content-form .sections #information .info-section {
 
 div#content #content-form .sections #information .info-main-content .info-sub-section {
     width: 7vw;
+}
+
+
+div#content #content-form {
+width: 95vw;
+}
+div#content #content-form .sections #options {
+    width: auto;
+    
 }
 }
