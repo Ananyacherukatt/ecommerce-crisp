@@ -283,4 +283,11 @@ div#content #content-head {
 div#content #content-form .sections #information { 
     width: unset;
 }
+div#content #content-form .sections {
+    margin-top: 7vh;
+    width: 82vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
 }
