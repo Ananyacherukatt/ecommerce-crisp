@@ -666,4 +666,11 @@ div#features .feature {
   display: flex;
   margin-bottom: 10px;
 }
+div#content #other-ad #section-2 #ad-content-of-section-2 .ad-head {
+  font-family: "Oswald";
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 83px;
+}
 }
