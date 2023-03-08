@@ -6,7 +6,7 @@ div#content {
   justify-content: space-evenly;
 }
 div#content > div {
-  width: 75vw;
+  width: 90vw;
 }
 div#content #content-path {
   height: 21px;
@@ -235,7 +235,7 @@ div#content
   }
   div#content #content-form .sections #information #sections {
     height: 100%;
-    width: 38vw;
+    width: 45vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,4 +247,11 @@ div#content
   }
   div#content #content-form .sections #information #sections .section .section-input .section-input-label  {
 }
+div#content > div {
+    width: 91vw;
+}
+#content-form{
+    width: 90vw;
+}
+
 }

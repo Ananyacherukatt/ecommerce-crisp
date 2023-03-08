@@ -476,13 +476,14 @@ div#content
 @media screen and (max-width: 650px) { 
 
 div#content #content-form #order-summary {
-    width: 39vw;
+    width: 45vw;
     box-sizing: border-box;
     background: #F0F2F2;
     border: 2px solid #C4C4C4;
     padding: 15px;
     position: relative;
     left: 65px;
+    height: 170vw;
 }
 
 div#content #content-form #order-summary #paymeny-method {
