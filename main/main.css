@@ -1,5 +1,12 @@
+html {
+  overflow-x: hidden;
+}
+
+
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+  position: relative;
+  width: 100vw;
 }
 div#content {
   /* height: 100vh; */

@@ -195,7 +195,8 @@ div#content
 
 @media screen and (max-width: 650px) {
     #password-3 {
-        left: 27%;
+        left: 37%;
+        display: none;
     }
     div#content #content-head {
         font-size: 6vw;
@@ -206,8 +207,15 @@ div#content
     div#content #content-form #sections .section .section-header { 
         font-size: 3vw;
     }
+    div#content #content-form #sections {
+    height: 100%;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 
 
 
-
+}
 }

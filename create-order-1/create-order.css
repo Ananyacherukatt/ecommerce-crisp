@@ -399,4 +399,15 @@ div#content #content-form #order-summary {
     left: 50px;
     position: relative;
 }
+div#content #content-form .large-light-font {
+    display: none;
+}
+#chevron  {
+    display: none !important;
+    position: absolute;
+}
+div#content #content-form #address-n-method .section {
+    width: 119%;
+    margin-top: 10px;
+}
 }
