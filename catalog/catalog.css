@@ -383,7 +383,7 @@ div#content
 }
 div#content .ad-x .ad-head {
   font-size: 15px;
-  left: 110px;
+  left: 100px;
   bottom: 50px;
 }
 div#content #collection #side-bar .side-bar-box .sizes-row .size {
@@ -436,7 +436,7 @@ div#content .ad-x .ad-text {
   font-size: 12px;
   width: 70%;
   position: absolute;
-  left: 110px;
+  left: 86px;
 }
 div#content .ad-x .ad-button-2 {
   border: 2px solid white;
@@ -451,7 +451,8 @@ div#content .ad-x .ad-button-2 {
   cursor: pointer;
   color: white;
   padding: 5px 30px;
-  margin-top: 30px;
+  margin-top: 55px;
+  margin-left: 45px;
 }
 div#content .ad-x .ad-button {
   border: 2px solid black;

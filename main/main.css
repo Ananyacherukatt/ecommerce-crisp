@@ -591,7 +591,7 @@ div#content #ad .ad-nav-2 {
   .ad-data.left {
   }
   .ad-data .ad-data-head {
-    font-size: 17px;
+    font-size: 11px;
 
     /* top: 20px; */
     flex-direction: row;
@@ -616,7 +616,7 @@ div#content #ad .ad-nav-2 {
     font-family: "Oswald";
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 14px;
     text-transform: uppercase;
   }
   .ad-content .ad-sub-head {
@@ -669,8 +669,11 @@ div#features .feature {
 div#content #other-ad #section-2 #ad-content-of-section-2 .ad-head {
   font-family: "Oswald";
   font-weight: 600;
-  font-size: 40px;
+  font-size: 23px;
   text-transform: uppercase;
-  line-height: 83px;
+  line-height: 22px;
+}
+.ad-data .ad-data-button {
+  font-size: 7px;
 }
 }
