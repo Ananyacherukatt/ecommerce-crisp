@@ -507,6 +507,49 @@ div#content #collection #side-bar #box .box-item .box-item-data .badge {
     div#content #collection #side-bar .side-bar-box .sizes-row .size {
         margin-right: 4px;
     }
+    #content .ad-x .ad-container button {
+        border: 1px black solid;
+        position: absolute;
+        left: 17%;
+        top: 64%;
+        padding: 5px;
+        background-color: #ffffff00;
+        font-size: 10px;
+    }
+    div#content #collection {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    div#content #collection #side-bar {
+         width: auto;
 
-
+    }
+    div#content #collection #side-bar .side-bar-box .side-bar-text {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+    div#content .wishlist-row {
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    div#content #collection #collect {
+        margin: 30px 0;
+         width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        border-left: 1px solid #C4C4C4;
+    }
+    div#content .wishlist-row .wishlist-item {
+        display: flex;
+        flex-direction: column;
+       width: auto;
+        padding: 20px;
 }

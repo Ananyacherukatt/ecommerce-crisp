@@ -382,7 +382,9 @@ div#content
     width: 90%;
 }
 div#content .ad-x .ad-head {
-  font-size: 30px;
+  font-size: 15px;
+  left: 110px;
+  bottom: 50px;
 }
 div#content #collection #side-bar .side-bar-box .sizes-row .size {
   margin-right: 4px;
@@ -393,5 +395,75 @@ div#content #collection #side-bar .side-bar-box .sizes-row {
 div#content #collection #side-bar {
   width: unset;
 }
-
+div#content #collection #side-bar .side-bar-box .side-bar-text {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+   max-width: unset;
+}
+div#content #collection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+div#content #collection #collect {
+  margin: 30px 0;
+ width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  border-left: 1px solid #c4c4c4;
+}
+div#content .wishlist-row {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+div#content .wishlist-row .wishlist-item {
+  display: flex;
+  flex-direction: column;
+   width:auto;
+  padding: 20px;
+}
+div#content .ad-x .ad-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 70%;
+  position: absolute;
+  left: 110px;
+}
+div#content .ad-x .ad-button-2 {
+  border: 2px solid white;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  padding: 5px 30px;
+  margin-top: 30px;
+}
+div#content .ad-x .ad-button {
+  border: 2px solid black;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #000000;
+  padding: 5px 30px;
+  margin-top: 101px;
+  left: 160px;
+  position: absolute;
 }

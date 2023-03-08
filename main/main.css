@@ -2,7 +2,6 @@ html {
   overflow-x: hidden;
 }
 
-
 body {
   overflow-x: hidden;
   position: relative;
@@ -556,9 +555,6 @@ div#content #ad .ad-nav-2 {
   flex-direction: row;
 }
 
-
-
-
 @media screen and (max-width: 650px) {
   div#content #ad #ad-content {
     flex-direction: column;
@@ -599,25 +595,75 @@ div#content #ad .ad-nav-2 {
 
     /* top: 20px; */
     flex-direction: row;
-    
   }
   .ad-data .ad-data-text {
-    
-    font-size: 14px; 
+    font-size: 9px;
   }
   .row {
-    flex-direction:column;
+    flex-direction: column;
     gap: 2rem;
   }
   div#content .ad-x {
     height: 15rem;
   }
   div#content .ad-x img {
-   
-    object-fit:fill;
-
+    object-fit: fill;
+  }
+  .ad-data .ad-data-border {
+    display: none;
+  }
+  .ad-content .ad-head {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .ad-content .ad-sub-head {
+    font-family: "Roboto";
+    font-size: 13px;
 }
-.ad-data .ad-data-border {
-  display: none;
+div#content #collection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+div#content #collection #side-bar{
+  width: auto;
+}
+div#content .wishlist-row {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+div#content #collection #collect {
+   width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  border-left: 1px solid #c4c4c4;
+}
+div#content .wishlist-row .wishlist-item {
+  display: flex;
+  flex-direction: column;
+   width: auto;
+  padding: 20px;
+}
+div#features {
+   height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: #E6F1FA;
+  font-family: 'Oswald';
+  font-weight: 400;
+  flex-direction: column;
+  padding-left: 35%;
+}
+div#features .feature {
+  display: flex;
+  margin-bottom: 10px;
 }
 }
