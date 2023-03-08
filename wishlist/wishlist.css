@@ -273,4 +273,7 @@ div#content #content-form .sections #wishlists .table-buttons .grey-button {
 div#content #content-form .sections {
     gap: 13px;
 }
+div#content #content-form .sections #options {
+    width: 31vw;
+}
 }
