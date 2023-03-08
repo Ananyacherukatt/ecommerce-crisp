@@ -476,14 +476,14 @@ div#content
 @media screen and (max-width: 650px) { 
 
 div#content #content-form #order-summary {
-    width: 45vw;
+    width: 75vw;
     box-sizing: border-box;
     background: #F0F2F2;
     border: 2px solid #C4C4C4;
     padding: 15px;
     position: relative;
-    left: 65px;
-    height: 170vw;
+ 
+    height: auto;
 }
 
 div#content #content-form #order-summary #paymeny-method {
@@ -502,4 +502,36 @@ div#content #content-form .section-header img {
 div#content #content-form .large-light-font  {
     display: none;
 }
+
+div#content {
+    height: auto;
+    padding: 20px;
+}
+div#content #content-form {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+div#content > div {
+    width:auto;
+}
+div#content #content-form > div {
+    width: 75vw;
+}
+
+
+div#content #content-form #address-n-method {
+     width: 75vw;
+}
+div#content #content-form #address-n-method .section .button-section .black-button {
+    width: auto;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }

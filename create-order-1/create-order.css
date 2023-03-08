@@ -396,8 +396,7 @@ div#content #content-form #order-summary {
     background: #F0F2F2;
     border: 2px solid #C4C4C4;
     padding: 15px;
-    left: 50px;
-    position: relative;
+   
 }
 div#content #content-form .large-light-font {
     display: none;
@@ -407,10 +406,41 @@ div#content #content-form .large-light-font {
     position: absolute;
 }
 div#content #content-form #address-n-method .section {
-    width: 119%;
+    
     margin-top: 10px;
 }
 #content-form {
     width: 78vw;
+    height: auto;
 }
+div#content {
+    height: auto;
+}
+div#content #content-form {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+}
+div#content {
+    flex-direction: column;
+}
+div#content #content-form #address-n-method .section .section-input .section-input-box {
+    height: 25px;
+    width: 60%;
+    border: 1px solid #C4C4C4;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    padding-left: 10px;
+}
+div#content #content-form #address-n-method {
+    width: auto;
+}
+div#content #content-form #address-n-method .section .button-section .black-button {
+    padding: 10px;
+    width: auto;
 }

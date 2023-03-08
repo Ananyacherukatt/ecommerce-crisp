@@ -476,10 +476,10 @@ div#content
 }
 
 
-#content .ad-x .ad-container .shop a {
+/* #content .ad-x .ad-container .shop a {
     color: black;
     text-decoration: none;
-  }
+  } */
 
   #content .ad-x .ad-container button {
     border: 1px black solid;
@@ -493,7 +493,12 @@ div#content
 div#content .ad-x {
     position: relative;
 }
-
+div#content
+#ad-1{
+  height: 100%;
+  background-image: url('/catalog-2/Group 11 .png');
+  background-position: center right;
+}
   
 
 
@@ -523,6 +528,9 @@ div#content #collection #side-bar #box .box-item .box-item-data .badge {
     }
     div#content #collection #side-bar {
          width: auto;
+         display: flex;
+    flex-direction: column;
+    align-items: center;
 
     }
     div#content #collection #side-bar .side-bar-box .side-bar-text {
@@ -553,3 +561,4 @@ div#content #collection #side-bar #box .box-item .box-item-data .badge {
        width: auto;
         padding: 20px;
 }
+  }

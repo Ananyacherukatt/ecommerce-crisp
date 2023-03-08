@@ -394,6 +394,9 @@ div#content #collection #side-bar .side-bar-box .sizes-row {
 }
 div#content #collection #side-bar {
   width: unset;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 div#content #collection #side-bar .side-bar-box .side-bar-text {
   font-family: "Roboto";
